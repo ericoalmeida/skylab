@@ -1,6 +1,6 @@
 <br>
 <div align="center">
-  <img width="300" alt="NextJS-ChakraUI" src="./.github/assets/Nextjs-ChakraUI.png" />
+  <img width="300" alt="NextJS-ChakraUI" src="https://github.com/ericoalmeida/skylab/blob/master/.github/Nextjs-ChakraUI.png?raw=true" />
 
   <h4 align="center">
      Next.js, declarative UI and design systems applied to ReactJS.
@@ -11,16 +11,11 @@
 
 <p align="center">
   <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/ericoalmeida/skylab" />
-  <img alt="Github License" src="https://img.shields.io/github/license/eugustavo/youtube-nextjs-design-system" />
 </p>
 
-<p align="center">
-  <img alt="Rocketseat" src="./.github/assets/login-rocketseat.png">
-</p>
+## 🚀 Documentação
 
-## 🚀 Getting started
-
-To clone and run the application, you will need to have [Git](https://git-scm.com), [Node.js](https://nodejs.org) + [Yarn](https://yarnpkg.com) installed on your machine. With all programs installed, run the following command lines:
+Para clonar a aplicação e iniciá-la, será preciso ter [Git](https://git-scm.com), [Node.js](https://nodejs.org) + [Yarn](https://yarnpkg.com) instalados em sua máquina. com todos os programas instalados, execute os comandos abaixo:
 
 ```bash
 # Clone this repository
