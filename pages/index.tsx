@@ -7,7 +7,14 @@ import {
   Link,
   Button,
   Text,
+  Icon,
+  InputGroup,
+  InputLeftElement,
+  Stack,
+  Box,
 } from "@chakra-ui/core";
+import { GoMarkGithub } from "react-icons/go";
+
 import Divider from "../components/divider";
 
 export default function Home() {
@@ -42,22 +49,36 @@ export default function Home() {
         alignItems="stretch"
         padding={16}
       >
-        <Input
-          height="50px"
-          backgroundColor="gray.800"
-          focusBorderColor="purple.500"
-          borderRadius="sm"
-          placeholder="E-mail"
-        />
+        <Stack spacing={2}>
+          <InputGroup>
+            <InputLeftElement
+              height="50px"
+              children={<Icon name="email" color="gray.600" />}
+            />
+            <Input
+              height="50px"
+              backgroundColor="gray.800"
+              focusBorderColor="purple.500"
+              borderRadius="sm"
+              placeholder="E-mail"
+            />
+          </InputGroup>
 
-        <Input
-          height="50px"
-          backgroundColor="gray.800"
-          focusBorderColor="purple.500"
-          borderRadius="sm"
-          marginTop={2}
-          placeholder="Senha"
-        />
+          <InputGroup>
+            <InputLeftElement
+              height="50px"
+              children={<Icon name="lock" color="gray.600" />}
+            />
+
+            <Input
+              height="50px"
+              backgroundColor="gray.800"
+              focusBorderColor="purple.500"
+              borderRadius="sm"
+              placeholder="Senha"
+            />
+          </InputGroup>
+        </Stack>
 
         <Link
           alignSelf="flex-start"
@@ -104,6 +125,13 @@ export default function Home() {
             borderRadius="sm"
             _hover={{ backgroundColor: "purple.500" }}
           >
+            <Box
+              as={GoMarkGithub}
+              color="white.100"
+              size="16px"
+              marginRight="3"
+              opacity={0.6}
+            />
             GITHUB
           </Button>
         </Flex>
