@@ -19,4 +19,4 @@ class MyDocument extends Document<DocumentProps> {
     }
 }
 
-export { MyDocument }
+export default MyDocument
