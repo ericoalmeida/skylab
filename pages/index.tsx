@@ -33,7 +33,7 @@ export default function Home() {
       alignItems="center"
     >
       <Flex gridArea="logo" flexDirection="column" alignItems="flex-start">
-        <img src="/rocketseat.svg" alt="rocketseat" />
+        <img src="/ericoalmeida.svg" alt="rocketseat" />
 
         <Heading size="2xl" lineHeight="shorter" marginTop={16}>
           Faça seu login na plataforma
@@ -58,7 +58,7 @@ export default function Home() {
             <Input
               height="50px"
               backgroundColor="gray.800"
-              focusBorderColor="purple.500"
+              focusBorderColor="blue.500"
               borderRadius="sm"
               placeholder="E-mail"
             />
@@ -73,7 +73,7 @@ export default function Home() {
             <Input
               height="50px"
               backgroundColor="gray.800"
-              focusBorderColor="purple.500"
+              focusBorderColor="blue.500"
               borderRadius="sm"
               placeholder="Senha"
             />
@@ -84,19 +84,19 @@ export default function Home() {
           alignSelf="flex-start"
           marginTop={2}
           fontSize="sm"
-          color="purple.600"
+          color="blue.600"
           fontWeight="bold"
-          _hover={{ color: "purple.500" }}
+          _hover={{ color: "blue.500" }}
         >
           Esqueci minha senha
         </Link>
 
         <Button
           marginTop={6}
-          backgroundColor="purple.500"
+          backgroundColor="blue.500"
           height="50px"
           borderRadius="sm"
-          _hover={{ backgroundColor: "purple.600" }}
+          _hover={{ backgroundColor: "blue.600" }}
         >
           ENTRAR
         </Button>
@@ -104,9 +104,9 @@ export default function Home() {
         <Text textAlign="center" fontSize="sm" color="gray.300" marginTop={6}>
           Não tem um conta?{" "}
           <Link
-            color="purple.600"
+            color="blue.600"
             fontWeight="bold"
-            _hover={{ color: "purple.500" }}
+            _hover={{ color: "blue.500" }}
           >
             Registre-se
           </Link>
@@ -123,7 +123,7 @@ export default function Home() {
             backgroundColor="gray.600"
             marginLeft={6}
             borderRadius="sm"
-            _hover={{ backgroundColor: "purple.500" }}
+            _hover={{ backgroundColor: "blue.500" }}
           >
             <Box
               as={GoMarkGithub}
